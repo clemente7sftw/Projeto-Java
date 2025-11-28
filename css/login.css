@@ -1,0 +1,110 @@
+
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #000000;
+}
+
+.cardLogin{
+    text-align: center;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 18px rgba(0,0,0,0.1);
+    width: 400px;      
+}
+
+input{
+    border-radius: 15px;
+    border: solid 1px #444;
+    height: 45px;
+    width: 100%;          
+    margin-bottom: 18px;
+    padding: 0 12px;
+    font-size: 15px;
+}
+.senha-container{
+    position: relative;
+    width: 100%;
+}
+
+.senha-container input{
+    width: 100%;
+    padding-right: 45px; 
+}
+
+.icone-olho{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    width: 22px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    opacity: .7;
+    transition: .2s;
+}
+
+.icone-olho:hover{
+    opacity: 1;
+}
+
+
+button{
+    height: 45px;
+    width: 60%;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+.aLogin{
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #000;
+}
+
+.areaSocial{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.btnLogin{
+    height: 50px;
+    width: 100px;
+    border-radius: 20px;
+    border: solid 1px #000;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.btnLogin:hover{
+    opacity: .75;
+}
+
+.btnLogin img{
+    width: 30px;
+}
